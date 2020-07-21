@@ -78,7 +78,7 @@ function checkPoints() {
         process.exit();
     }
     if (userLoss === 2) {
-        console.log('LMAFO YOU SUCK LOSER')
+        console.log('YOU LOSE TRY AGAIN')
         process.exit();
     }
 }
