@@ -41,22 +41,18 @@ if ( playerguess === 'paper') {
     if (computerguess === 'rock') {
         console.log('paper beats rock\nyou win this round'), 
         userWin++
-        // pointCheck(),
     } else {
         console.log('scissors beats paper\ncomputer wins this round')
         userLoss++
-        // pointCheck()
     }
 }
 if (playerguess === 'rock') {
     if (computerguess === 'scissors') {
         console.log('rock beats scissors\nyou win this round'),
         userWin++
-        // pointCheck()
     } else {
         console.log('paper beats rock\ncomputer wins this round'),
         userLoss++
-        // pointCheck
     }
 }   
 if (playerguess === 'scissors') {
